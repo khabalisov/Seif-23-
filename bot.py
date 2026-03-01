@@ -8,8 +8,8 @@ import time
 import math
 
 # Конфигурация
-TOKEN = "vk1.a.75xlJuH6zej537hsTTSCCgTMJfFulzDdFoDyPBccRn1T5pMkfpy6WQFepPWYm41CEFFUovfUNL2dni1TnWNh42Yf81yiwdmUqKAVHLbUAZslv1wmNKuN8X_kNpm9GMD6Iq9oSZeezgWa6z1PA0JR3U2z9A1afREcQCDY0di0THdCsJhsi7SIng0c4p1Nhft8rjrnTbQ1a7tULNiH1Gg19Q"
-GROUP_ID = "218666977"
+TOKEN = "vk1.a.0euN8jV1vl33Ez4XURp9fO1HbXcn1LUmKbu03e2WqRf9LwWB-m3Qfn9jsink_KK4vRqoFgq0oS5e-AYteFGt7Kh9dn5DZ9u-T13fo6con8LT_G-HSkB6V-ErmLlaT0z5YD8n9H0V5f5sJCqYfYTqx8f66OoXTYGZFVefIDPB8yLa-fdPK4eoK6w9hmWfmxLQXTV3Rt8LVYg-0t76fSjVaA"
+GROUP_ID = "195388835"
 SECRET_CODE = "3461695"  # Загаданный код
 
 # Инициализация бота
@@ -571,4 +571,5 @@ for event in longpoll.listen():
 
         # Неизвестная команда
         elif message:
+
             send_message(user_id, "🤖 Неизвестная команда. Напиши 'помощь' для списка команд.")
